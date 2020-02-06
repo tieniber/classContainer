@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="mendix.classcontainer.ClassContainer" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Class Container</name>
+    <description>A container with an expression property to dynamically calculating a CSS class to be applied</description>
+    <icon/>
+    <properties>
+        <property key="content" type="widgets" required="false">
+            <caption>Content</caption>
+            <category>General</category>
+            <description>Content of a box</description>
+        </property>
+        <property key="classes" type="expression" required="false">
+            <caption>Class to apply</caption>
+            <category>General</category>
+            <description>CSS Class(es) to be applied to the container</description>
+        	<returnType type="String" />
+        </property>
+    </properties>
+</widget>
