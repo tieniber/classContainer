@@ -5,7 +5,11 @@ import { hot } from "react-hot-loader/root";
 
 class ClassContainer extends Component {
     render() {
-        return <div className={this.props.classes.value}>{this.props.content}</div>;
+        return (
+            <div className={this.props.classes.value} onClick={this.props.clickAction.execute}>
+                {this.props.content}
+            </div>
+        );
     }
 }
 

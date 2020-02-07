@@ -18,5 +18,10 @@
             <description>CSS Class(es) to be applied to the container</description>
         	<returnType type="String" />
         </property>
+        <property key="clickAction" type="action" required="false">
+            <caption>On click</caption>
+            <category>General</category>
+            <description>Action to be performed when container is clicked</description>
+        </property>        
     </properties>
 </widget>
