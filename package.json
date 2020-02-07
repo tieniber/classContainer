@@ -1,7 +1,7 @@
 {
   "name": "classcontainer",
   "widgetName": "ClassContainer",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A container with an expression property to dynamically calculating a CSS class to be applied",
   "copyright": "Mendix 2019",
   "author": "Eric Tieniber",
