@@ -1,17 +1,4 @@
 ## ClassContainer
-[A container with an expression property to dynamically calculating a CSS class to be applied]
-
-## Features
-[feature highlights]
-
-## Usage
-[step by step instructions]
-
-## Demo project
-[link to sandbox]
-
-## Issues, suggestions and feature requests
-[link to GitHub issues]
-
-## Development and contribution
-[specify contribute]
+A container widget that applies dynamic styling based on expressions. It offers 2 expression properties:
+- CSS Classes: use your app's data to decide which CSS classes to apply to the container
+- Inline styling: use data in your app to create inline styling to be applied to the container
