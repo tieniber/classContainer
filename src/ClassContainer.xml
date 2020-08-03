@@ -18,6 +18,14 @@
             <description>CSS Class(es) to be applied to the container</description>
         	<returnType type="String" />
         </property>
+        <property key="styles" type="expression" required="false">
+            <caption>Styles to apply</caption>
+            <category>General</category>
+            <description>A JSON string to be used as the React style prop on the container.
+            Example: '{"backgroundColor": "lightblue"}'
+            See https://reactjs.org/docs/dom-elements.html#style for more info.</description>
+        	<returnType type="String" />
+        </property>        
         <property key="clickAction" type="action" required="false">
             <caption>On click</caption>
             <category>General</category>
